@@ -561,7 +561,7 @@ function changePage(page){
 (function (){
   const totalPages = numOfPages();
   console.log(totalPages)
-  const paginationDomContainer = document.getElementById("paginationDomContainer");
+  const paginationDomContainer = document.getElementById("buttons");
   paginationDomContainer.innerHTML = "";
   
   //first button
